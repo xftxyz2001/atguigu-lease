@@ -1,0 +1,43 @@
+<mxfile host="Electron" modified="2023-08-13T13:37:19.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="PcQdmBAuBIKtMdgQlshk" version="21.2.8" type="device">
+  <diagram name="第 1 页" id="7PNIO0xc48R2k1wWzut6">
+    <mxGraphModel dx="1387" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="az8Ad1ZRiH-IY7Uy3Ji0-6" value="后台系统管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;arcSize=8;verticalAlign=top;fontStyle=1;fillColor=#eeeeee;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7hS4GMTRW8yyBWekmGCy-24" value="移动端用户管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;arcSize=8;verticalAlign=top;fontStyle=1;fillColor=#eeeeee;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="230" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7hS4GMTRW8yyBWekmGCy-21" value="租赁管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;arcSize=8;verticalAlign=top;fontStyle=1;fillColor=#eeeeee;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="120" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7hS4GMTRW8yyBWekmGCy-1" value="公寓(房源)管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;arcSize=8;verticalAlign=top;fontStyle=1;fillColor=#eeeeee;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="120" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7hS4GMTRW8yyBWekmGCy-4" value="公寓信息管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#cce5ff;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hS4GMTRW8yyBWekmGCy-8" value="房间信息管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#cdeb8b;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hS4GMTRW8yyBWekmGCy-10" value="&lt;strong style=&quot;box-sizing: border-box; font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left;&quot;&gt;公寓/房间属性管理&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#fff2cc;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="260" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hS4GMTRW8yyBWekmGCy-12" value="&lt;strong style=&quot;box-sizing: border-box; font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; text-align: left;&quot;&gt;看房预约管理&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#d5e8d4;strokeColor=none;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="10" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hS4GMTRW8yyBWekmGCy-14" value="租约管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#f8cecc;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hS4GMTRW8yyBWekmGCy-16" value="后台系统用户管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffff88;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="200" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hS4GMTRW8yyBWekmGCy-18" value="移动端用户管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffcc99;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="200" y="270" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

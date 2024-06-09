@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2023-08-07T15:27:27.739Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="a7HOvJ6lP91QqaJLg_32" version="21.6.5" type="device">
+  <diagram name="第 1 页" id="ul7P2iWGLdG9SCVtc6Vk">
+    <mxGraphModel dx="606" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dC-La3moPV6zfuCb54iB-1" value="前端" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;verticalAlign=top;fontSize=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="240" y="160" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dC-La3moPV6zfuCb54iB-2" value="后端" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;verticalAlign=top;fontSize=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="640" y="160" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dC-La3moPV6zfuCb54iB-3" value="1.填写手机号码，将其发送后端，请求发送短信验证码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dC-La3moPV6zfuCb54iB-4" value="2.生成随机验证码，以手机号码作为key，验证码作为value保存至redis，并发送短信验证码到该手机号码" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="660" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dC-La3moPV6zfuCb54iB-5" value="3.发送手机号码和收到的短信验证码到后端，请求登陆" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="270" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dC-La3moPV6zfuCb54iB-6" value="4.以手机号码作为key，从redis中查询之前保存的验证码，并将其与收到的验证码进行对比，若两者相同，则生成JWT并响应给前端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="660" y="300" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9BfJfsN1dPDAnGuFBY_E-2" value="5.将JWT保存到本地" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="340" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9BfJfsN1dPDAnGuFBY_E-3" value="6.携带JWT请求个人信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="400" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9BfJfsN1dPDAnGuFBY_E-4" value="7.验证JWT，若合法则从数据中查询用户信息并响应给前端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="660" y="410" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9BfJfsN1dPDAnGuFBY_E-5" value="8.后续请求均携带JWT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="460" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9BfJfsN1dPDAnGuFBY_E-6" value="9.后续请求均验证JWT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="660" y="480" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="La9cTvsrzSIRsNzD_M2Y-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="dC-La3moPV6zfuCb54iB-3" target="dC-La3moPV6zfuCb54iB-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="380" as="sourcePoint" />
+            <mxPoint x="560" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La9cTvsrzSIRsNzD_M2Y-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" parent="1" source="dC-La3moPV6zfuCb54iB-4" target="dC-La3moPV6zfuCb54iB-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="230" as="sourcePoint" />
+            <mxPoint x="670" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La9cTvsrzSIRsNzD_M2Y-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="dC-La3moPV6zfuCb54iB-5" target="dC-La3moPV6zfuCb54iB-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="380" as="sourcePoint" />
+            <mxPoint x="470" y="407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La9cTvsrzSIRsNzD_M2Y-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" parent="1" source="dC-La3moPV6zfuCb54iB-6" target="9BfJfsN1dPDAnGuFBY_E-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="263" as="sourcePoint" />
+            <mxPoint x="430" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La9cTvsrzSIRsNzD_M2Y-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="9BfJfsN1dPDAnGuFBY_E-3" target="9BfJfsN1dPDAnGuFBY_E-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="370" as="sourcePoint" />
+            <mxPoint x="560" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La9cTvsrzSIRsNzD_M2Y-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" parent="1" source="9BfJfsN1dPDAnGuFBY_E-4" target="9BfJfsN1dPDAnGuFBY_E-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La9cTvsrzSIRsNzD_M2Y-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="9BfJfsN1dPDAnGuFBY_E-5" target="9BfJfsN1dPDAnGuFBY_E-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="425" as="sourcePoint" />
+            <mxPoint x="670" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

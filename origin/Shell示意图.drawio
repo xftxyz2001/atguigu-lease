@@ -1,0 +1,28 @@
+<mxfile host="Electron" modified="2023-09-27T14:45:22.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="-nk9AsflLPwSc7sxyUQy" version="21.2.8" type="device">
+  <diagram name="第 1 页" id="G0diuHoKhDT6E2569p9L">
+    <mxGraphModel dx="1436" dy="656" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dLj5j7xqhCQ57mRKmGE--2" value="Shell" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="76" y="100" width="136" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="dLj5j7xqhCQ57mRKmGE--1" value="kernel" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="104" y="128" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLj5j7xqhCQ57mRKmGE--5" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#6c8ebf;fillColor=#dae8fc;shape=mxgraph.azure.user;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="81" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dLj5j7xqhCQ57mRKmGE--6" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-10.25" y="131" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dLj5j7xqhCQ57mRKmGE--7" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.84;exitY=0.28;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dLj5j7xqhCQ57mRKmGE--5" target="dLj5j7xqhCQ57mRKmGE--2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89" y="53" as="sourcePoint" />
+            <mxPoint x="139" y="3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

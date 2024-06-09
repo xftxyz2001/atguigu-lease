@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2023-11-01T08:21:54.036Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="0zmdvdZFAEGG9wlGkLU5" version="21.2.8" type="device">
+  <diagram name="第 1 页" id="8IEi8LyrVbu8YMSA1M3z">
+    <mxGraphModel dx="1480" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-73" value="SpirngMVC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;fillColor=#eeeeee;strokeColor=none;arcSize=2;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="680" y="907.5" width="591" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-61" value="前端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;fillColor=#eeeeee;strokeColor=none;arcSize=7;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1291" y="940" width="290" height="226.88" as="geometry" />
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-16" value="&lt;div style=&quot;text-align: center; font-size: 19px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 19px;&quot;&gt;/admin/label/saveOrUpdate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center; font-size: 19px;&quot;&gt;&lt;br style=&quot;font-size: 19px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 19px;&quot;&gt;&amp;nbsp; &quot;type&quot;: &quot;1&quot;,&lt;/span&gt;&lt;br style=&quot;font-size: 19px;&quot;&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&amp;nbsp; &quot;name&quot;: &quot;健身房&quot;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;arcSize=3;verticalAlign=top;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1311" y="978.75" width="250" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-59" value="MybatisPlus" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;verticalAlign=top;fillColor=#eeeeee;strokeColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="480" y="987.5" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-62" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W5t24rz5G6J5IaTAQYe1-16" target="W5t24rz5G6J5IaTAQYe1-74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="1057.5" as="sourcePoint" />
+            <mxPoint x="1210" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-66" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=19;startSize=8;endSize=8;" parent="1" source="W5t24rz5G6J5IaTAQYe1-76" target="W5t24rz5G6J5IaTAQYe1-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="1057.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-68" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=19;strokeWidth=2;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="120" y="980" width="120" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-69" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W5t24rz5G6J5IaTAQYe1-70" target="W5t24rz5G6J5IaTAQYe1-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="1057.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-70" value="TypeHandler" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="505" y="1042.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-71" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=19;startSize=8;endSize=8;" parent="1" source="W5t24rz5G6J5IaTAQYe1-72" target="W5t24rz5G6J5IaTAQYe1-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-72" value="insert into label_info(&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;type&lt;/b&gt;&lt;/font&gt;,name) values(&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;1&lt;/b&gt;&lt;/font&gt;,&quot;健身房&quot;)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1016.25" width="200" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-74" value="HTTPMessageConverter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1030" y="1042.5" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-75" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=19;startSize=8;endSize=8;endArrow=classic;endFill=1;startArrow=none;startFill=0;" parent="1" source="W5t24rz5G6J5IaTAQYe1-74" target="W5t24rz5G6J5IaTAQYe1-76" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="1054.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W5t24rz5G6J5IaTAQYe1-76" value="&lt;b&gt;Controller方法参数&lt;br style=&quot;font-size: 19px;&quot;&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 19px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 19px;&quot;&gt;&lt;b style=&quot;background-color: initial; color: rgb(255, 128, 0); font-size: 19px;&quot;&gt;@RequestBody &lt;/b&gt;&lt;b style=&quot;background-color: initial; font-size: 19px;&quot;&gt;LabelInfo&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 19px;&quot;&gt;&lt;b style=&quot;background-color: initial; font-size: 19px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color); font-size: 19px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;{&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left; font-size: 19px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;&amp;nbsp; &quot;type&quot;: ItemType.APARTMENT,&lt;br style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left; font-size: 19px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;&amp;nbsp; &quot;name&quot;: &quot;健身房&quot;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left; font-size: 19px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;}&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;arcSize=7;" parent="1" vertex="1">
+          <mxGeometry x="700" y="955" width="300" height="205" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

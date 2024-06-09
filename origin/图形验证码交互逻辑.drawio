@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2023-08-07T06:02:09.635Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="6Ssn6L7OLy4b0zc6hEQ5" version="21.6.5" type="device">
+  <diagram name="第 1 页" id="fNqs8zxvkUJUVECF3vqd">
+    <mxGraphModel dx="728" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-1" value="浏览器" style="rounded=1;whiteSpace=wrap;html=1;arcSize=11;fontSize=15;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="240" y="120" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-2" value="Spring Boot" style="rounded=1;whiteSpace=wrap;html=1;arcSize=11;fontSize=15;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="520" y="120" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-3" value="1.请求验证码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-6" value="2.生成验证码+唯一key，将key和验证码值保存至Redis，并设置TTL，然后将key和验证码图片响应给浏览器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="540" y="170" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-7" value="3.填写验证码，并将验证码值和key，发送至服务端请求验证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-8" value="4.根据key查询Redis，将查询到的值与请求中包含的值进行比对" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="540" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-9" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="800" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-11" value="key：验证码值&lt;br&gt;（TTL=60s）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="815" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="fQsyPlb1phDWS3wfOF4d-3" target="fQsyPlb1phDWS3wfOF4d-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="420" as="sourcePoint" />
+            <mxPoint x="660" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="fQsyPlb1phDWS3wfOF4d-6" target="fQsyPlb1phDWS3wfOF4d-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="195" as="sourcePoint" />
+            <mxPoint x="630" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="fQsyPlb1phDWS3wfOF4d-7" target="fQsyPlb1phDWS3wfOF4d-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="400" as="sourcePoint" />
+            <mxPoint x="430" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="fQsyPlb1phDWS3wfOF4d-6" target="fQsyPlb1phDWS3wfOF4d-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="420" as="sourcePoint" />
+            <mxPoint x="660" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQsyPlb1phDWS3wfOF4d-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="fQsyPlb1phDWS3wfOF4d-8" target="fQsyPlb1phDWS3wfOF4d-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="220" as="sourcePoint" />
+            <mxPoint x="825" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
